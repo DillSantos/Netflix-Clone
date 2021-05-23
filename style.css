@@ -1,0 +1,307 @@
+body{
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+section{
+    border-bottom: 8px solid #222;
+}
+
+header{
+    max-width: 1940px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+.logo{
+    max-width: 7.5rem;
+}
+.tradutor{
+    text-indent: 0;
+    padding-right: 26px;
+    padding: .5rem 1.375;
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+    line-height: 1.3em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 .75rem;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: .875rem;
+    padding: .25rem 1.375rem;
+}
+.btn-login{
+    overflow: hidden;
+    color: white;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+section .box{
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+   
+}
+.box-background, .box .centro{
+    height: 83.27vh;
+}
+.box .centro .centro-total{
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+.box .centro h1{
+    font-size: 3.125rem;
+    margin: 1rem auto;
+}
+.box .centro h2{
+    font-size: 1.625rem;
+}
+.box .centro h3{
+    font-size: 18px;
+
+}
+.box .box-background img{
+    transform: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-background::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.8)),color-stop(60%,rgba(0,0,0,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: -moz- oldlinear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: -o-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.form-control{
+    height: 4rem;
+}
+.vamos .input-group-text{
+    border-color: #e50914; 
+    background-color: #e50914; 
+    border-radius: 2px;
+    font-size: 1.625rem;
+}
+.vamos .icone-svg{
+    width: 1rem;
+    height: 1.2rem;
+}
+/* fim da section box*/
+
+
+/*inicio da section container*/
+section .container .title{
+    font-size: 3.125rem;
+}
+section .container .subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.video-tv img{
+    position: relative;
+    z-index: 1;
+}
+.video-tv video{
+    position: absolute;
+    left: 15.5%;
+    top: 19%;
+    max-width: 69%;
+}
+
+
+
+
+.video-pc video{
+    position: absolute;
+    left: 22.5%;
+    top: 11%;
+    max-width: 54%;
+}
+.video-pc img{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+.mobile{
+    min-height: 100px;
+    width: 100%;
+}
+.mobile img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.mobile-card{
+    font-size: 16px;
+    direction: ltr;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    background: #000;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    min-width: 15em;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 0 2em 0 #000;
+    border-radius: .75em;
+    padding: .35em .75em;
+
+}
+.mobile-card .card-image img{
+    margin: 0 1em 0 0;
+    height: 4.5rem;
+}
+.mobile-card h5{
+    flex-shrink: 1;
+    margin: .3em 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.mobile-card label{
+    left: 0%;
+    margin:0%;
+    color: #0071eb;
+    font-size: .75em;
+    font-weight: 400;
+}
+.mobile-card .gif img{
+    flex-grow: 1;
+    width: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    flex-shrink: 0;
+    background-size: 100%;
+    content: '';
+    display: block;
+}
+
+/**resp0nsividade**/
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px){
+   header{
+    height: 45px;
+   }
+    .logo{
+        width: auto;
+        height: 1.5rem;
+        padding-top: 0;
+        
+    }
+    .btn-login{
+        font-size: .9rem;
+        margin-top: .35rem;
+        padding: .25rem .5rem;
+            
+    }
+    section .box{
+        padding: 70px 45px;
+    }
+    .form-control{
+        height: 48px;
+        flex: none !important;
+    }
+    .vamos .input-group-text{
+        font-size: 1rem;
+    }
+    
+    .box .centro h1{
+        font-size: 1.75rem;      
+    }
+    .box .centro h2{
+        font-size: 1.125rem;
+        margin: 1rem auto;
+        
+    }
+    .box .centro h3{
+        padding: 0 10%;        
+    }
+    
+    .background, .box .centro img{
+        height: 64vh;
+    }
+    .box-background img{
+        height: 100%;
+        width: auto;        
+    }
+    .vamos .icone-svg{
+        width: 1rem;
+        height: 0.8rem;
+    }
+ 
+    section {
+        align-items: center;
+        text-align: center;
+    }
+    section .container .title{
+        font-size: 1.625rem;
+    }
+    section .container .subtitle{
+        font-size: 1.125rem
+    }
+    .mobile img{
+    max-width: 100%;
+    height: auto;
+    border: 0;    
+    }
+
+    section .title{
+        font-size: 1.625rem;
+        
+    }
+    section .subtitle{
+        font-size: 1.125rem;
+        text-align:center;
+    }
+    .mobile-card{
+        padding: .35em .75em;
+        }
+        
+    }
