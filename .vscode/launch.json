@@ -4,17 +4,19 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        
         {
-            "command": "npm start",
-            "name": "chrome start",
+            "command": "start index.html",
+            "name": "Run npm start index.html",
             "request": "launch",
             "type": "node-terminal"
         },
-        
+
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "starter index.html",
+            "name": "start index.html",
             "file": "c:\\Users\\Gabriela\\Netflix-Clone\\index.html"
         }
     ]
