@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix - Assista seus filmes e séries favoritas.</title>
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <script src="https://kit.fontawesome.com/3c27832a99.js" crossorigin="anonymous"></script>
+
+    <!-- owel css-->
+    <link rel="stylesheet" href="Style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="Style/owl/owl.theme.default.min.css">
+
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/inicial.css">
+    <title>Netflix - Assista seus filmes e séries favoritas.</title>
 </head>
 
 <body>
@@ -62,33 +64,44 @@
                 </div>
                 <div class="categorias">
                     <span>Recomendados</span>
-                    <div class="slide">
-                        <div class="filmes">
-                            <img src="img/movie-01.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-02.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-03.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-04.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movi3-05jpg.webp" alt="">
+                    <div class="carrosel-filmes">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="https://occ-0-2013-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfdx-HLgHEtj6ui7Qb0sxyNzO24sTxlT37XQiqCdcewlBRIKjkiez45Vq_cC9Ah0u2ThJCq7tAIRSKCHF_t5l-mz82M.webp?r=e4e" alt="">
+                            </div>
+                            <div class="filmes">
+                                <img src="https://occ-0-2013-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeSftAflOkvmcb6-G0-fWbq4ZkdeO0hdRfbcicLC5G4C7m1JsKu1P9VwMnuo0PCvItG_VfvZP00qUzWHnIg6x7lY6ZM.webp?r=881" alt="">
+                            </div>
+                            <div class="filmes">
+                                <img src="img/movie-03.jpg" alt="">
+                            </div>
+                            <div class="filmes">
+                                <img src="https://occ-0-2013-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQwgwHJrXkF8JNxlHU8NrPiEtHH7lbau-rAJBtf3yPhcaYZe31pgYZOU7Og-ZEG3jkQb8AA5oF7nhKlvOhlbvu6jj1E.webp?r=36d" alt="">
+                            </div>
+                            <div class="filmes">
+                                <img src="img/movie-02.jpg" alt="">
+                            </div>       
+                            <div class="filmes">
+                                <img src="https://occ-0-2013-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR-lSsTP7A3J3-hItNKVu1ePjTDvxuUYHkuInYrBenYWQpvPEz5TeqScGbIAeq6Lz-jQ2atefxj8yY_JK_RYigh1cao.webp?r=61d" alt="">
+                            </div>                     
+                            <div class="item">
+                                <img src="https://occ-0-2013-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVwosOFuNTxuTol32-1OGDiwVAOFOxSdKm2yu3JOEU5K9SQycHcrq4ek5ufVfTmcunkL63VD9cNQCjBEUDd4BaVL4ec.webp?r=30b" alt="">
+                            </div>
+                            <div class="filmes">
+                                <img src="img/movie-04.jpg" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="footer d-flex align-items-center justify-content-center">
-                    <div class="social text-white">
-                        <a target="_blank" href="https://www.linkedin.com/in/DillSantos"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a target="_blank" href="https://github.com/DillSantos"><i class="fab fa-github"></i></a>
+
+                    <div class="footer d-flex align-items-center justify-content-center">
+                        <div class="social text-white">
+                            <a target="_blank" href="https://www.linkedin.com/in/DillSantos"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/DillSantos"><i class="fab fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
 
 
@@ -96,106 +109,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-        <script src="jquery.min.js"></script>
-        <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="JavaScript/owl/jquery.min.js"></script>
+    <script src="JavaScript/owl/owl.carousel.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+
 </body>
 
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix - Filmes, séries e muito mais.</title>
-    <script src="https://kit.fontawesome.com/3c27832a99.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style/inicial.css">
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <div class="background">
-                <div class="header">
-                    <div class="logo">
-                        <img src="img/logo.png" alt="Netflix-logo">
-                    </div>
-                    <div class="menu">
-                        <div class="menu-esquerda">
-                            <ul>
-                                <a href="#">Início</a>
-                                <a href="#">Séries</a>
-                                <a href="#">Filmes</a>
-                                <a href="#">Bombando</a>
-                                <a href="#">Minhas Listas</a>
-                            </ul>
-                        </div>
-                        <div class="menu-direita">
-                            <ul>
-                                <a href="#"><i class="fas fa-search"></i></a>
-                                <a href="#">Infantil</a>
-                                <a href="#"><i class="fas fa-gift"></i></a>
-                                <a href="#"><i class="fas fa-bell"></i></a>
-                                <a href="#" class="usuario">
-                                    <img src="img/loginlobo.png" alt="">
-                                    <i class="fas fa-sort-down align-items-center"></i>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="banner">
-                    <img src="img/armvetor.webp" alt="" class="poster">
-                    <span class="subtitulo">Após um surto de zumbis em Las Vegas, um grupo de mercenários se aventura em
-                        uma zona de quarentena para tentar realizar o maior assalto de todos os tempos.</span>
-                    <div class="buttons">
-                        <button role="button" class="btn">
-                            <a href=""><i class="fas fa-play"></i>Assistir Agora</a>
-                        </button>
-                        <button role="button" class="btn">
-                            <a href=""><i class="fas fa-plus"></i>Adicionar a lista</a>
-                        </button>
-                    </div>
-                </div>
-                <div class="categorias">
-                    <span>Recomendados</span>
-                    <div class="slide">
-                        <div class="filmes">
-                            <img src="img/movie-01.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-02.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-03.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movie-04.jpg" alt="">
-                        </div>
-                        <div class="filmes">
-                            <img src="img/movi3-05jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer d-flex align-items-center justify-content-center">
-                    <div class="social text-white">
-                        <a target="_blank" href="https://www.linkedin.com/in/DillSantos"><i class="fab fa-linkedin"></i></a>
-                        <a target="_blank" href="https://github.com/DillSantos"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-           </div>
-        </div>
-    </header>
-
-
-    <script src="https://kit.fontawesome.com/3c27832a99.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-</body>
-
->>>>>>> 7c33ae62fd5a4abd7ffb2df1776df7245d4e42bc
 </html>

@@ -132,27 +132,22 @@ body {
     line-height: 17px;
     font-weight: 600;
 }
-.slide{
-    margin-top: 0.8rem;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    left: 3.75rem;
-    right: 0;
+
+.slide .carrosel-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
-.slide .filmes {
-    min-width: 19.3%;
-}
-.slide .filmes img {
-    max-width: 100%;
-    padding-right: 5px;
-}
+
 .footer{
+    align-items: center;
     height: 4rem;
 }
 .footer .social a{
+
     color: #e5e5e5;
     text-decoration: none;
     font-size: 28px;
-    padding-right: 26px;
+    padding: 26px;
 }
+
